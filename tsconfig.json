@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@riyo/*": [
         "src/*"
@@ -10,6 +11,9 @@
   "extends": "./tsconfig.base.json",
   "include": [
     "src",
-    "test"
+    "tests"
+  ],
+  "types": [
+    "jest"
   ]
 }

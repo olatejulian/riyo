@@ -1,15 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
+  "env": {
+    "jest/globals": true
+  },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "google",
-    "plugin:prettier/recommended",
-    "prettier"
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "@typescript-eslint",
+    "jest",
     "prettier"
   ],
   "rules": {
