@@ -14,6 +14,7 @@
     "jest": "^30.0.5",
     "prettier": "^3.6.2",
     "ts-jest": "^29.4.0",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
   "keywords": [],
@@ -24,6 +25,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/main.js",
+    "start:watch": "tsx watch src/main.ts",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
