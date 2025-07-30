@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "paths": {
+      "@riyo/*": [
+        "src/*"
+      ]
+    }
+  },
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "src",
+    "test"
+  ]
+}

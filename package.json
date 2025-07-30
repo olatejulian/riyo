@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "author": "@olatejulian <julian.lf.olate@gmail.com>",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "riyo",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
